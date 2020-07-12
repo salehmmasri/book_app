@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/layout.css">
+    <link rel="stylesheet" href="style/modle.css">
+</head>
+
+<body>
+    <header>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+        <div class="menu">
+            <ul>
+                <a href="#">
+                    <li>Result</li>
+                </a>
+                <a href="#">
+                    <li>Search</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <form action="/search" method="post">
+
+            <label for="text"></label>
+            <input type="text" name="text" id="inp" placeholder="Enter a Title or Author">
+            <span>
+                <label>
+
+                    Author
+                </label for="Author">
+                <input type="radio" value="Author" name="form1" id="author">
+            </span>
+            <span>
+                <label for="">
+                    Title
+                </label for="title">
+                <input type="radio" value="title" name="form1" id="title">
+            </span>
+            <button id="btn">Search Google Books Api</button>
+        </form>
+    </main>
+    <footer>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="/functionality/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+
+/* mobile */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    div{
+    
+        height:fit-content;
+        text-align: center;
+        padding: 37px;
+        background-color: #dddddd;
+        width: 73%;
+        margin: auto auto;
+        margin-top: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 1);
+        border-radius: 5px;
+
+    }
+    h2{
+        text-shadow: 1px 0px #000000b3;
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 600;
+        margin: 20px 0;
+    }
+    h4{
+        font-family: 'Roboto Mono', monospace;
+        margin: 20px 0;
+        font-size: 15px;
+        font-style: italic;
+    }
+    div img{
+        border: 9px solid white;
+        width: 250px;
+        height: 310px;
+    }    
+       
+  }
+  /* end mobile */
+  
+  /* for tablet */
+  @media only screen and (min-width: 768px) and (max-width: 1000px) {
+
+    section{
+        display: flex;
+        flex-flow: row wrap;
+
+    }
+    div{
+
+        height: 530px;
+        text-align: center;
+        padding: 37px;
+        background-color: #dddddd;
+        width: 40%;
+        margin: auto auto;
+        margin-top: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 1);
+        border-radius: 5px;
+
+    }
+    h2{
+        text-shadow: 1px 0px #000000b3;
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 600;
+        margin: 20px 0;
+    }
+    h4{
+        font-family: 'Roboto Mono', monospace;
+        margin: 20px 0;
+        font-size: 15px;
+        font-style: italic;
+    }
+    div img{
+        border: 9px solid white;
+        width: 250px;
+        height: 310px;
+    }    
+           
+  }
+
+/* for desktop */
+@media only screen and (min-width: 1001px) and (max-width: 2200px) {
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+
+}
+div{
+
+    height: 530px;
+    text-align: center;
+    padding: 37px;
+    background-color: #dddddd;
+    width: 25%;
+    margin: auto auto;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 1);
+    border-radius: 5px;
+
+
+}
+h2{
+    text-shadow: 1px 0px #000000b3;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    margin: 20px 0;
+}
+h4{
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px 0;
+    font-size: 15px;
+    font-style: italic;
+}
+div img{
+    border: 9px solid white;
+    width: 250px;
+    height: 310px;
+}    
+
+
+}

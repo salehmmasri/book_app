@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+       <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/base.css">
+        <link rel="stylesheet" href="style/layout.css">
+        <link rel="stylesheet" href="style/modle.css">
+</head>
+
+<body>
+    <header>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+        <div class="menu">
+            <ul>
+                <a href="#">
+                    <li>Result</li>
+                </a>
+                <a href="#">
+                    <li>Search</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section>
+            <% booksData.forEach(val =>{ %>
+            <div>
+                <img src=" <%= val.img_url %> " alt="">
+                <h2><%= val.title %></h2>
+                <h4><%= val.author %></h4>
+                <p><%= val.description %></p>
+            </div>
+            <% }) %>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="/functionality/app.js"></script>
+</body>
+
+</html>
