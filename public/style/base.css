@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+/* *{
+    box-sizing: border-box;
+} */
+body{
+    background-color:darkgray;
+    color: #686060;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.7;
+    font-family: 'Merriweather', serif;
+    max-height: 96px;
+    overflow: auto;
+}
